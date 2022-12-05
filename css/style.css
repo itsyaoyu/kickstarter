@@ -1,0 +1,78 @@
+/*
+    Document defaults
+*/
+body {
+    font-family: Futura !important;
+    background-color: #EAFEEA !important;
+}
+
+body p {
+    font-size: 18px !important;
+}
+
+.sidebar {
+    position: fixed;
+}
+
+.main-body {
+    position: absolute;
+    margin-left: 20%;
+}
+
+.col-md-8 {
+    width: 75% !important;
+}
+
+/*
+    Title Details
+*/
+.header {
+    font-family: Futura;
+    text-align: center;
+}
+
+.header h1 {
+    font-weight: bold;
+    position: relative;
+    display: inline;
+}
+
+.header img {
+    display: inline;
+    width: 25%;
+    height: 25%;
+    vertical-align: -5px;
+}
+
+/*
+    Bar Chart
+ */
+
+.bar-label {
+    font-size: 8px;
+    text-anchor: middle;
+}
+
+.x-axis {
+    text-anchor: start;
+}
+
+/*
+    Square Graph
+*/
+
+.curlyBrace {
+    stroke: #000000;
+    stroke-width: 4px;
+    fill: none;
+}
+
+.metric_val {
+    margin: 0px;
+    font-size: 22px;
+    font-weight: bold
+}
+
+.metric_title {
+    font-size: 17px;
+}
